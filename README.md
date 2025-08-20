@@ -1,4 +1,4 @@
-# 60s Rock Band – Vite + React + Tailwind (GitHub Pages ready)
+# Blanche and the Wolves
 
 ## Your GitHub Pages URL
 **https://zach-leblanc.github.io/blanche-and-the-wolves/**
