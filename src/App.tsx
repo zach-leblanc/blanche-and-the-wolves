@@ -30,8 +30,23 @@ export default function App() {
       {/* ABOUT / BLURB */}
       <section className="max-w-3xl mx-auto px-6 py-12 md:py-16 text-center">
         <p className="text-lg md:text-xl leading-relaxed text-zinc-200">
-          Born in the echo of the British Invasion and raised on garage fuzz, <span className="font-semibold text-fuchsia-300">The Reverberators</span> bring
-          a kaleidoscope of 60s rock — jangly guitars, swirling organs, and three‑part harmonies — to stages near you.
+          Après avoir parcouru les rues de Paris à pied ou à roulettes, s’est rassemblée une nouvelle
+meute. Psyché garage, aux allures de magie blanche pour soigner, la médecine du loup
+permets de guider, le symbolisme de la solidarité et de la protection des uns et des autres.
+
+Ces petits loups parisiens qui ont plus d’une corde à leur arc, chacun fort de leurs
+expériences diverses et références anglaises, vont vous faire voyager dans des contrées
+imaginaires en remettant à l’ordre du jour un goût certain pour les ballades seventies.
+Résonnance magnétique des doubles guitares et envolées aériennes, se succèdent,
+alternant, ballades, et riffs saccadés.
+Les mélodies suspendues nous paraissent douces et légères lorsque que l’on entend ces
+accords berçants en premier lieu. Mais ne vous fiez pas aux apparences, trop facile, ils vont
+vous sortir de votre rêverie à coups de riffs garage rock. Dans un esprit de voyage teinté
+d’humour et d’expériences rigolotes. Les Wolves broient parfois du noir, mais leur énergie
+folle nous fait vite oublier les mauvais jours pour reprendre la route.
+          Il était une fois <span className="font-semibold text-fuchsia-300">Blanche &amp; The Wolves</span>
+Un groupe français de musique alternative composé de 5 musiciens issus de divers horizons
+musicaux, aux allures qui évoluent, romantiques et sous-tension.
         </p>
       </section>
 
