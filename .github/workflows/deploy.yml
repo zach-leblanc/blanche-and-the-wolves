@@ -28,8 +28,7 @@ jobs:
       # If your files are in a subfolder, see Section 2 below.
       - run: npm install
       - run: npm run build
-        env:
-          VITE_BASE_PATH: "/${{ github.event.repository.name }}/"
+       
 
       - uses: actions/upload-pages-artifact@v3
         with:
