@@ -1,5 +1,7 @@
 import { Instagram } from "lucide-react";
 import Logo from '../images/logo-white.png';
+import Band from '../images/band.png';
+import Hero from '../images/desert.jpg';
 
 export default function App() {
   return (
@@ -42,7 +44,7 @@ function Hero() {
   return (
     <section id="top" className="relative w-full min-h-[72vh] md:min-h-[82vh] flex items-end">
       <img
-        src="/images/desert.jpg" 
+        src={Hero} 
         alt="Ambiance du désert"
         className="absolute inset-0 w-full h-full object-cover"
       />
@@ -90,7 +92,7 @@ function Biography() {
         </div>
         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden ring-1 ring-white/10 shadow-2xl">
           <img
-            src="/images/band.png"
+            src={Band}
             alt="Les loups"
             className="w-full h-full object-cover"
           />
