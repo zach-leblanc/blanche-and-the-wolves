@@ -1,6 +1,3 @@
-// Blanche and The Wolves — Site inspired by lecomptoirgeneral.com layout
-// Tailwind assumed. Custom domain uses base '/'. Replace images/links as noted.
-
 import { Instagram } from "lucide-react";
 
 export default function App() {
@@ -44,16 +41,13 @@ function Hero() {
   return (
     <section id="top" className="relative w-full min-h-[72vh] md:min-h-[82vh] flex items-end">
       <img
-        src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2000&auto=format&fit=crop" 
-        alt="Velvet curtain and vintage stage lighting"
+        src="/images/desert.jpg" 
+        alt="Ambiance du désert"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/20" />
       <div className="relative z-10 max-w-6xl mx-auto w-full px-5 pb-16 md:pb-24">
-        <h1 className="font-serif text-5xl md:text-7xl leading-none tracking-wide">
-          <span className="block">Blanche</span>
-          <span className="block md:mt-2">and The Wolves</span>
-        </h1>
+       <img src="/images/logo-white.png"/>
         <p className="mt-6 max-w-2xl text-zinc-300">
           Musique alternative — psyché garage — ballades seventies.
         </p>
@@ -95,8 +89,8 @@ function Biography() {
         </div>
         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden ring-1 ring-white/10 shadow-2xl">
           <img
-            src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?q=80&w=1400&auto=format&fit=crop"
-            alt="Night street in Paris with dreamy lights"
+            src="/images/band.png"
+            alt="Les loups"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -111,15 +105,15 @@ function News() {
   const events = [
     {
       title: "Résidence — La Boule d’Or",
-      date: "25 septembre 2025",
-      city: "Paris, FR",
-      blurb: "Session de résidence spéciale — nouveaux arrangements et set immersif.",
+      date: "Août 2023",
+      city: "Clamecy, FR",
+      blurb: "Session de résidence — nouveaux arrangements et set immersif.",
     },
     {
-      title: "Festival — Montmartre",
+      title: "Montmartre Festival",
       date: "25 septembre 2025",
       city: "Paris, FR",
-      blurb: "Open‑air sur la butte — balade psyché et riffs garage au coucher du soleil.",
+      blurb: "Balades psychés et riffs garage dans l'iconique Montmartre",
     },
   ];
 
@@ -154,8 +148,7 @@ function Music() {
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="font-serif text-3xl md:text-4xl tracking-wide mb-8">Musique</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <YouTube id="ScMzIvxBSi4" title="Live Session" />
-          <YouTube id="ysz5S6PUM-U" title="Studio Teaser" />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vhWSzjzWe2A?si=It1syOXKrrwXhWHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </section>
