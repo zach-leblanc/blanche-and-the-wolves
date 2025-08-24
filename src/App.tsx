@@ -1,7 +1,7 @@
 import { Instagram } from "lucide-react";
 import Logo from '../images/logo-white.png';
 import Band from '../images/band.png';
-import Hero from '../images/desert.jpg';
+import Desert from '../images/desert.jpg';
 
 export default function App() {
   return (
@@ -44,7 +44,7 @@ function Hero() {
   return (
     <section id="top" className="relative w-full min-h-[72vh] md:min-h-[82vh] flex items-end">
       <img
-        src={Hero} 
+        src={Desert} 
         alt="Ambiance du désert"
         className="absolute inset-0 w-full h-full object-cover"
       />
