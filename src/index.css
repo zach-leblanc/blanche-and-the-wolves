@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Albertus";
+  src: url("./fonts/AlbertusMTStd.otf") format("opentype");
+font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+  font-family: "Albertus";
+  src: url("./fonts/AlbertusMTStdItalic.otf") format("opentype");
+font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+  font-family: "Albertus";
+  src: url("./fonts/AlbertusMTStdLight.otf") format("opentype");
+font-style: normal;
+    font-weight: 300;
+}
 /* Smooth fonts and defaults */
 html, body, #root { height: 100%; }
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.font-serif {
+    font-family:"Albertus" !important;
+}
+
+body {
+    font-family: "Albertus" !important;
+}
