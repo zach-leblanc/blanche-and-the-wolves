@@ -166,8 +166,8 @@ function Contact() {
         <h2 className="font-serif text-3xl md:text-4xl tracking-wide mb-6">Contact</h2>
         <ul className="space-y-3 text-lg">
           <li>
-            Inquiries: {" "}
-            <a className="underline decoration-amber-300/60 underline-offset-4 hover:text-amber-300" href="mailto:inquiries@thewolvesband.com">inquiries@thewolvesband.com</a>
+            Booking & MGMT: {" "}
+            <a className="underline decoration-amber-300/60 underline-offset-4 hover:text-amber-300" href="mailto:inquiries@thewolvesband.com">blanchedezert@gmail.com</a>
           </li>
           <li className="flex items-center gap-3">
             <span className="sr-only">Instagram</span>
@@ -175,7 +175,7 @@ function Contact() {
               <span className="p-2 rounded-full bg-zinc-800/80 group-hover:bg-zinc-700 transition">
                 <Instagram className="w-5 h-5" />
               </span>
-              <span className="underline decoration-amber-300/60 underline-offset-4">@thewolvesband</span>
+              <span className="underline decoration-amber-300/60 underline-offset-4">@blancheandthewolves</span>
             </a>
           </li>
         </ul>
