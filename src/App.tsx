@@ -1,4 +1,7 @@
 import { Instagram } from "lucide-react";
+import Band from '';
+import Logo from '';
+import Hero from '../images/desert.jpg';
 
 export default function App() {
   return (
@@ -89,7 +92,7 @@ function Biography() {
         </div>
         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden ring-1 ring-white/10 shadow-2xl">
           <img
-            src="/images/band.png"
+            src="/images"
             alt="Les loups"
             className="w-full h-full object-cover"
           />
