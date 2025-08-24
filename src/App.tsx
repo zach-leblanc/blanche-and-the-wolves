@@ -1,4 +1,5 @@
 import { Instagram } from "lucide-react";
+import Logo from '../images/logo-white.png';
 
 export default function App() {
   return (
@@ -47,7 +48,7 @@ function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/20" />
       <div className="relative z-10 max-w-6xl mx-auto w-full px-5 pb-16 md:pb-24">
-       <img src="/images/logo-white.png"/>
+       <img src={Logo}/>
         <p className="mt-6 max-w-2xl text-zinc-300">
           Musique alternative — psyché garage — ballades seventies.
         </p>
