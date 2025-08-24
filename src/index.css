@@ -4,19 +4,19 @@
 
 @font-face {
   font-family: "Albertus";
-  src: url("./fonts/AlbertusMTStd.otf") format("opentype");
+  src: url("/fonts/AlbertusMTStd.otf") format("opentype");
 font-style: normal;
     font-weight: 500;
 }
 @font-face {
   font-family: "Albertus";
-  src: url("./fonts/AlbertusMTStdItalic.otf") format("opentype");
+  src: url("/fonts/AlbertusMTStdItalic.otf") format("opentype");
 font-style: italic;
     font-weight: 500;
 }
 @font-face {
   font-family: "Albertus";
-  src: url("./fonts/AlbertusMTStdLight.otf") format("opentype");
+  src: url("/fonts/AlbertusMTStdLight.otf") format("opentype");
 font-style: normal;
     font-weight: 300;
 }
